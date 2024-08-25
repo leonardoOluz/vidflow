@@ -1,0 +1,23 @@
+{
+  "name": "vidflow",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "json": "json-server --watch backend/videos.json"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "9.9.0",
+    "globals": "15.9.0",
+    "prettier": "3.0.3",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "axios": "1.6.0",
+    "dotenv": "^16.4.5"
+  }
+}
